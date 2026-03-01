@@ -1,4 +1,4 @@
-# ORWiki — Open ArchiMate reference model for supply chain architecture, based on the ORWiki framework (orwiki.org), inspired by SCOR. Free, CC-BY-SA 4.0.
+# ORWiki — Open ArchiMate Reference Model for Supply Chain
   A professional-quality ArchiMate reference model for supply chain architecture,
   based on the ORWiki framework (orwiki.org), inspired by SCOR.
 
