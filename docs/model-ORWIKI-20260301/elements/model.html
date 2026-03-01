@@ -46,7 +46,50 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<div class="convertlinks documentation" style="white-space:pre-wrap">Exported from 3-Level Batch Generator on 2026-03-01T18:28:20</div>
+						<div class="convertlinks documentation" style="white-space:pre-wrap">ORWiki Supply Chain Reference Framework in ArchiMate
+
+An ArchiMate representation of the ORWiki Supply Chain framework (https://orwiki.org), covering supply chain operations from strategic alignment through planning, sourcing, manufacturing, and delivery.
+
+This model captures the ORWiki framework's domains, capabilities, processes, and information flows as ArchiMate elements and relationships. The choice of ArchiMate element types -- Grouping for domains, Capability for functional areas, BusinessProcess for SCOR Level 3 activities, and Flow relationships for information exchanges -- represents my professional interpretation of how this framework best maps to the ArchiMate metamodel. Other ORWiki content such as terminology, metrics, and best practices is not yet included and will be discussed in future roadmap sessions with the community.
+
+Where the original ORWiki content has missing descriptions or incomplete coverage, this model preserves that state and flags it rather than filling it in. Authentic gaps are documented, not hidden.
+
+What is inside:
+- 7 domains: Plan, Source, Make, Deliver, and Enable (Align, Govern, Sell, Contract, Assist)
+- 41 capabilities organised by domain
+- 313 business processes at SCOR Levels 1-3
+- 305 relationships including information flows between processes
+- 30 views organised by capability
+- Process descriptions sourced directly from orwiki.org
+- Every element tagged with SCOR-ID, hierarchy level, and source provenance
+
+How to use this model:
+- Open in Archi (https://www.archimatetool.com) to explore, extend, and adapt
+- Use the views as starting points for your own supply chain architecture
+- Query element properties (SCOR-ID, Level, Source) for structured analysis
+- Build your own visualisations on top of the existing structure
+
+Content attribution:
+Framework content sourced from the OpenReference Wiki (https://orwiki.org).
+Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0).
+Original license terms: https://orwiki.org/ORWiki:Terms
+ArchiMate implementation by Bora Perzic (https://www.linkedin.com/in/bperzic/) with contributions from Peter Voss and Marcus Kael.
+
+---
+
+Get involved:
+
+This is a living project. The model is complete for what it covers, and there is more to build. Roadmap sessions are being planned to discuss structural completions, terminology and metrics modelling, and how this framework can best serve the Archi practitioner community. Your input shapes what comes next.
+
+Download the model:
+https://s3.eu-west-1.amazonaws.com/acrostone-models/orwiki-supply-chain/orwiki_publish.archimate
+
+Join the conversation:
+Archi Community Forum: https://forum.archimatetool.com
+Feedback and suggestions: [feedback mechanism TBD]
+
+---
+Version 1.0 | February 2026</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">
@@ -5936,9 +5979,5 @@
 		</div>
 	</div>
 	<script type="text/javascript">imageMapResize();</script>
-
-  <!-- archi-query-patch-injected -->
-  <link rel="stylesheet" href="archi-query-patch.css">
-  <script src="archi-query-patch.js"></script>
 </body>
 </html>
