@@ -9,11 +9,11 @@
   ## What this is
 
   An Archi repository containing a complete supply chain reference framework:
-  - 313 processes across 7 domains
-  - 41 capabilities with descriptions
-  - 305 relationships (composition, realization, flow)
+  - 267 business processes across 5 domains
+  - 41 capabilities with maturity indicators
+  - 521 relationships (composition, realization, flow)
   - Interactive HTML report with SQL query interface
-  - Every element tagged with level and provenance
+  - Every element tagged with SCOR-ID, level, and provenance
 
   Built for practitioners who use [Archi](https://www.archimatetool.com/) —
   the free, open-source ArchiMate modelling tool.
@@ -39,4 +39,15 @@
 
   ## Version
 
-  v2.1 — March 2026
+  v1 — March 2026
+
+---
+  
+  ## About this project
+
+  This model was built by Bora Perzic with AI assistance. The publication pipeline - diagram generation, ArchiMate XML assembly, HTML  report production, and GitHub deployment - runs on a custom AI agent team built in Claude Code.
+
+  The "Claude Code" contributor you see in the commit history is my AI assistant. It writes code, runs scripts, and commits changes as part of the workflow. The domain knowledge, modelling decisions,   and content are mine.
+
+  I think that's worth being transparent about. If you're curious about the approach, feel free to
+  ask.
